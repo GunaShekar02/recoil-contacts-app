@@ -1,0 +1,37 @@
+.container {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+
+.list {
+  display: grid;
+  gap: 10px;
+}
+
+.name_container {
+  width: 100%;
+  box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.name_container:hover {
+  transform: scale(1.05);
+}
+
+.name_selected {
+  background-color: #46bdc6;
+  color: white;
+}

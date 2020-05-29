@@ -1,0 +1,14 @@
+.container {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  display: grid;
+  height: 100%;
+  align-content: center;
+}
