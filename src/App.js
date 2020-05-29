@@ -1,7 +1,7 @@
 import React from "react";
 import { RecoilRoot } from "recoil";
 
-import Contact from "./components/Details/Details";
+import Details from "./components/Details/Details";
 import Sidebar from "./components/Sidebar/Sidebar";
 
 import "./App.css";
@@ -14,7 +14,7 @@ function App() {
           <Sidebar />
         </div>
         <div>
-          <Contact />
+          <Details />
         </div>
       </div>
     </RecoilRoot>
