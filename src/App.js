@@ -1,7 +1,7 @@
 import React from "react";
 import { RecoilRoot } from "recoil";
 
-import Contact from "./components/Contact/Contact";
+import Contact from "./components/Details/Details";
 import Sidebar from "./components/Sidebar/Sidebar";
 
 import "./App.css";

@@ -2,9 +2,9 @@ import React, { Suspense } from "react";
 
 import Card from "../Card/Card";
 
-import styles from "./Contact.module.css";
+import styles from "./Details.module.css";
 
-const Contact = () => {
+const Details = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
@@ -16,4 +16,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Details;
