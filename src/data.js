@@ -20,7 +20,6 @@ const contacts = [
     phone: "3333333333",
     email: "lorem@ipsum.com",
   },
-  ,
 ];
 
 export const getContacts = () =>
